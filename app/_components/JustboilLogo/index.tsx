@@ -8,7 +8,7 @@ type Props = {
 export default function VentureMondLogo({ className = "" }: Props) {
   return (
     <img
-      src="/favicon.png"
+      src="/logo.png"
       alt="VentureMond Logo"
       className={className}
       width={250}
