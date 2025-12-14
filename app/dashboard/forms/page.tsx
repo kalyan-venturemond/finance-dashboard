@@ -1,6 +1,6 @@
 "use client";
 
-import { mdiAccount, mdiBallotOutline, mdiGithub, mdiMail, mdiUpload } from "@mdi/js";
+import { mdiAccount, mdiBallotOutline, mdiMail, mdiUpload } from "@mdi/js";
 import { Field, Form, Formik } from "formik";
 import Head from "next/head";
 import Button from "../../_components/Button";
@@ -25,17 +25,7 @@ export default function FormsPage() {
       </Head>
 
       <SectionMain>
-        <SectionTitleLineWithButton icon={mdiBallotOutline} title="Formik forms example" main>
-          <Button
-            href="https://github.com/justboil/admin-one-react-tailwind"
-            target="_blank"
-            icon={mdiGithub}
-            label="Star on GitHub"
-            color="contrast"
-            roundedFull
-            small
-          />
-        </SectionTitleLineWithButton>
+        <SectionTitleLineWithButton icon={mdiBallotOutline} title="Formik forms example" main />
 
         <CardBox>
           <Formik

@@ -1,4 +1,4 @@
-import { mdiGithub, mdiMonitorCellphone, mdiTableBorder, mdiTableOff } from "@mdi/js";
+import { mdiMonitorCellphone, mdiTableBorder, mdiTableOff } from "@mdi/js";
 import Button from "../../_components/Button";
 import CardBox from "../../_components/CardBox";
 import CardBoxComponentEmpty from "../../_components/CardBox/Component/Empty";
@@ -17,17 +17,7 @@ export const metadata: Metadata = {
 export default function TablesPage() {
   return (
     <SectionMain>
-      <SectionTitleLineWithButton icon={mdiTableBorder} title="Tables" main>
-        <Button
-          href="https://github.com/justboil/admin-one-react-tailwind"
-          target="_blank"
-          icon={mdiGithub}
-          label="Star on GitHub"
-          color="contrast"
-          roundedFull
-          small
-        />
-      </SectionTitleLineWithButton>
+      <SectionTitleLineWithButton icon={mdiTableBorder} title="Tables" main />
 
       <NotificationBar color="info" icon={mdiMonitorCellphone}>
         <b>Responsive table.</b> Collapses on mobile

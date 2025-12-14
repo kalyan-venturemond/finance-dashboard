@@ -14,19 +14,10 @@ export default function FooterBar({ children }: Props) {
       <div className="block items-center justify-between md:flex">
         <div className="mb-6 text-center md:mb-0 md:text-left">
           <b>
-            &copy;{year},{` `}
-            <a href="https://justboil.me/" rel="noreferrer" target="_blank">
-              JustBoil.me
-            </a>
-            .
+            &copy; {year} VentureMond. All rights reserved.
           </b>
           {` `}
           {children}
-        </div>
-        <div className="md:py-2">
-          <a href="https://justboil.me" rel="noreferrer" target="_blank">
-            <JustboilLogo className="mx-auto h-8 w-auto md:h-6" />
-          </a>
         </div>
       </div>
     </footer>

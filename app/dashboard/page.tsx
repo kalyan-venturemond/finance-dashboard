@@ -2,7 +2,6 @@ import {
   mdiAccountMultiple,
   mdiCartOutline,
   mdiChartTimelineVariant,
-  mdiGithub,
   mdiMonitorCellphone,
 } from "@mdi/js";
 import Button from "../_components/Button";
@@ -12,7 +11,6 @@ import CardBoxWidget from "../_components/CardBox/Widget";
 import CardBoxTransaction from "../_components/CardBox/Transaction";
 import { Client, Transaction } from "../_interfaces";
 import CardBoxClient from "../_components/CardBox/Client";
-import SectionBannerStarOnGitHub from "../_components/Section/Banner/StarOnGitHub";
 import CardBox from "../_components/CardBox";
 import NotificationBar from "../_components/NotificationBar";
 import TableSampleClients from "./_components/Table/SampleClients";
@@ -30,17 +28,7 @@ export default function DashboardPage() {
 
   return (
     <SectionMain>
-      <SectionTitleLineWithButton icon={mdiChartTimelineVariant} title="Overview" main>
-        <Button
-          href="https://github.com/justboil/admin-one-react-tailwind"
-          target="_blank"
-          icon={mdiGithub}
-          label="Star on GitHub"
-          color="contrast"
-          roundedFull
-          small
-        />
-      </SectionTitleLineWithButton>
+      <SectionTitleLineWithButton icon={mdiChartTimelineVariant} title="Overview" main />
 
       <div className="mb-6 grid grid-cols-1 gap-6 lg:grid-cols-3">
         <CardBoxWidget
@@ -87,9 +75,7 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      <div className="my-6">
-        <SectionBannerStarOnGitHub />
-      </div>
+
 
       <ChartLineSampleComponentBlock />
 

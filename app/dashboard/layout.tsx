@@ -31,9 +31,8 @@ export default function LayoutAuthenticated({ children }: Props) {
   return (
     <div className={`overflow-hidden lg:overflow-visible`}>
       <div
-        className={`${layoutAsidePadding} ${
-          isAsideMobileExpanded ? "ml-60 lg:ml-0" : ""
-        } min-h-screen w-screen bg-gray-50 pt-14 transition-(--transition-position) lg:w-auto dark:bg-slate-800 dark:text-slate-100`}
+        className={`${layoutAsidePadding} ${isAsideMobileExpanded ? "ml-60 lg:ml-0" : ""
+          } min-h-screen w-screen bg-gray-50 pt-14 transition-(--transition-position) lg:w-auto dark:bg-slate-800 dark:text-slate-100`}
       >
         <NavBar
           menu={menuNavBar}
@@ -77,15 +76,7 @@ export default function LayoutAuthenticated({ children }: Props) {
         />
         {children}
         <FooterBar>
-          Get more with{` `}
-          <a
-            href="https://tailwind-react.justboil.me/dashboard"
-            target="_blank"
-            rel="noreferrer"
-            className="text-blue-600"
-          >
-            Premium version
-          </a>
+          {null}
         </FooterBar>
       </div>
     </div>

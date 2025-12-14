@@ -1,4 +1,4 @@
-import { mdiAccount, mdiGithub } from "@mdi/js";
+import { mdiAccount } from "@mdi/js";
 import Button from "../../_components/Button";
 import SectionMain from "../../_components/Section/Main";
 import SectionTitleLineWithButton from "../../_components/Section/TitleLineWithButton";
@@ -15,17 +15,7 @@ export const metadata: Metadata = {
 export default function ProfilePage() {
   return (
     <SectionMain>
-      <SectionTitleLineWithButton icon={mdiAccount} title="Profile" main>
-        <Button
-          href="https://github.com/justboil/admin-one-react-tailwind"
-          target="_blank"
-          icon={mdiGithub}
-          label="Star on GitHub"
-          color="contrast"
-          roundedFull
-          small
-        />
-      </SectionTitleLineWithButton>
+      <SectionTitleLineWithButton icon={mdiAccount} title="Profile" main />
 
       <CardBoxUser className="mb-6" />
 

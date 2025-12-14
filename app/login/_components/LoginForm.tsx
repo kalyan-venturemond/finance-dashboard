@@ -23,8 +23,8 @@ export default function LoginForm() {
   };
 
   const initialValues: LoginForm = {
-    login: "john.doe",
-    password: "bG1sL9eQ1uD2sK3b",
+    login: "",
+    password: "",
     remember: true,
   };
   return (

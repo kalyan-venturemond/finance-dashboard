@@ -3,9 +3,9 @@ import "../css/main.css";
 import StoreProvider from "./_stores/StoreProvider";
 import Script from "next/script";
 
-const title = `Admin One React Tailwind free`;
+const title = `VentureMond Dashboard`;
 
-const description = "Admin One - free React Next Tailwind dashboard with TypeScript and dark mode";
+const description = "VentureMond client dashboard for managing services and activity";
 
 const url = "https://justboil.github.io/admin-one-react-tailwind/";
 
