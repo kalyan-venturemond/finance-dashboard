@@ -38,7 +38,7 @@ export default function DashboardPage() {
           icon={mdiAccountMultiple}
           iconColor="success"
           number={512}
-          label="Clients"
+          label="Investors"
         />
         <CardBoxWidget
           trendLabel="16%"
@@ -48,7 +48,7 @@ export default function DashboardPage() {
           iconColor="info"
           number={7770}
           numberPrefix="$"
-          label="Sales"
+          label="Portfolio Value"
         />
         <CardBoxWidget
           trendLabel="Overflow"
@@ -58,7 +58,7 @@ export default function DashboardPage() {
           iconColor="danger"
           number={256}
           numberSuffix="%"
-          label="Performance"
+          label="ROI / Performance"
         />
       </div>
 
@@ -79,7 +79,7 @@ export default function DashboardPage() {
 
       <ChartLineSampleComponentBlock />
 
-      <SectionTitleLineWithButton icon={mdiAccountMultiple} title="Clients" />
+      <SectionTitleLineWithButton icon={mdiAccountMultiple} title="Investors" />
 
       <NotificationBar color="info" icon={mdiMonitorCellphone}>
         <b>Responsive table.</b> Collapses on mobile

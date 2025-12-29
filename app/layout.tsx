@@ -3,9 +3,9 @@ import "../css/main.css";
 import StoreProvider from "./_stores/StoreProvider";
 import Script from "next/script";
 
-const title = `VentureMond Dashboard`;
+const title = `FinVertex Systems Dashboard`;
 
-const description = "VentureMond client dashboard for managing services and activity";
+const description = "FinVertex Systems financial analytics & investment intelligence platform";
 
 const url = "/";
 

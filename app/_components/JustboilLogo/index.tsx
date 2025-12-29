@@ -5,11 +5,11 @@ type Props = {
   className?: string;
 };
 
-export default function VentureMondLogo({ className = "" }: Props) {
+export default function FinVertexLogo({ className = "" }: Props) {
   return (
     <img
       src="/logo.png"
-      alt="VentureMond Logo"
+      alt="FinVertex Systems Logo"
       className={className}
       width={250}
       height={100}

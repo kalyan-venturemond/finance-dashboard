@@ -9,8 +9,8 @@ interface MainState {
 
 const initialState: MainState = {
   /* User */
-  userName: "VentureMond Client",
-  userEmail: "client@venturemond.com",
+  userName: "FinVertex Client",
+  userEmail: "client@finvertexsystems.com",
 
   /* Field focus with ctrl+k (to register only once) */
   isFieldFocusRegistered: false,

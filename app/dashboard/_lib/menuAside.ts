@@ -22,7 +22,7 @@ const menuAside: MenuAsideItem[] = [
   },
   {
     href: "/dashboard/tables",
-    label: "Tables",
+    label: "Investors",
     icon: mdiTable,
   },
   {

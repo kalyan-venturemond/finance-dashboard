@@ -37,9 +37,9 @@ export default function AsideMenuLayer({ menu, className = "", ...props }: Props
         >
           <div className="flex-1 text-center lg:pl-6 lg:text-left xl:pl-0 xl:text-center">
             <div className="flex items-center justify-center gap-2 lg:justify-start xl:justify-center">
-              <img src="/logo.png" alt="VentureMond Logo" className="h-8 w-auto" />
+              <img src="/logo.png" alt="FinVertex Systems Logo" className="h-8 w-auto" />
               <span className="text-lg">
-                Venture <span className="font-semibold">Mond</span>
+                FinVertex <span className="font-semibold">Systems</span>
               </span>
             </div>
           </div>

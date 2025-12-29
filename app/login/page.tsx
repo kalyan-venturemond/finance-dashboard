@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import LoginForm from "./_components/LoginForm";
 
 export const metadata: Metadata = {
-  title: getPageTitle("VentureMond Login"),
+  title: getPageTitle("Login"),
 };
 
 const LoginPage = () => {
